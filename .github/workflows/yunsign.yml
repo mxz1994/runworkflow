@@ -10,7 +10,7 @@ jobs:
     name: Aliyun Signin
     runs-on: ubuntu-latest
     steps:
-      - uses: mxz994/runworkflow
+      - uses: mxz1994/runworkflow
         with:
           REFRESH_TOKENS: ${{ secrets.REFRESH_TOKENS }}
           PUSH_TYPES: ''

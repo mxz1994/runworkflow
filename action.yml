@@ -80,12 +80,12 @@ runs:
     - id: version
       uses: pozetroninc/github-action-get-latest-release@master
       with:
-        repository: mxz994/runworkflow
+        repository: mxz1994/runworkflow
         excludes: prerelease, draft
     - name: Download
       shell: bash
       run: |
-        wget https://github.com/mxz994/runworkflow/archive/refs/tags/${{ steps.version.outputs.release }}.zip -O release.zip
+        wget https://github.com/mxz1994/runworkflow/archive/refs/tags/${{ steps.version.outputs.release }}.zip -O release.zip
         rm -rf release
         unzip release.zip -d release
         rm release.zip
