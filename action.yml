@@ -1,5 +1,5 @@
-name: yunshanfu Signin
-author: mxz
+name: Aliyun Signin
+author: ImYrS
 description: 'AliyunDrive signin automatically'
 
 inputs:
@@ -111,5 +111,5 @@ runs:
         SMTP_RECEIVER: ${{ inputs.SMTP_RECEIVER }}
 
 branding:
-  icon: 'check-circle'
-  color: 'orange'
+    icon: 'check-circle'
+    color: 'orange'
